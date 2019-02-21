@@ -24,7 +24,7 @@ def show_jobs():
         print('IN TOTAL SO FAR:     {0:.2f} EUR'.format(totaling))
         print('===========================\n\n')
     except FileNotFoundError:
-        print('Now log of Customer 1 jobs found!')
+        print('No log of Customer 1 jobs found!')
 
     try:
         f = open('.\Jobs_{0}_2017_Customer 2.txt'.format(month), 'r')
@@ -45,7 +45,7 @@ def show_jobs():
         print('IN TOTAL SO FAR:     {0:.2f} EUR'.format(totaling))
         print('===========================\n\n')
     except FileNotFoundError:
-        print('Now log of Customer 2 jobs found!')
+        print('No log of Customer 2 jobs found!')
 
     try:
         f = open('.\Jobs_{0}_2017_Customer 3.txt'.format(month), 'r')
@@ -66,4 +66,4 @@ def show_jobs():
         print('IN TOTAL SO FAR:     {0:.2f} EUR'.format(totaling))
         print('===========================\n\n')
     except FileNotFoundError:
-        print('Now log of Customer 3 jobs found!')
+        print('No log of Customer 3 jobs found!')
